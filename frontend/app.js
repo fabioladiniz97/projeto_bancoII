@@ -159,7 +159,9 @@ class App{
         this.$modalTitle.value = $noteTitle.outerText
         this.$modalText.value = $noteText.outerText
     }
-
+    
+//listar notas
+    
     listarNotes(){
         const url = 'http://localhost:3002/notas'
         
