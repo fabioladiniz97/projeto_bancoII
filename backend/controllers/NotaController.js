@@ -10,7 +10,7 @@ const buscarNota = async (request, response) =>{
     }
 };
 
-//Vai adicionar nota mandando uma requisição para o body onde tem todos os params(Titulo,comentario e cor)
+//Vai adicionar nota mandando uma requisição para o body onde tem todos os params(Titulo,comentario)
 const addNota = async (request, response) =>{
 
     const nota = new Nota(request.body);
@@ -49,4 +49,4 @@ const atualizarNota = async (request, response) =>{
     }
 }
 
-module.exports = { buscarNota,addNota, deletarNota,atualizarNota };
+module.exports = { buscarNota, addNota, deletarNota,atualizarNota };
