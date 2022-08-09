@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap"></link>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="assets/notes.png">
+    <title>PostDay</title>
+</head>
+<body>
+    <main>
+        <div class="modal">
+            <div class="modal-content">
+                <input class="modal-title" placeholder="Titulo" type="text">   
+                <input class="modal-text" placeholder="Adicione uma nota..." type="text">   
+                <span class="modal-close-button">Salvar</span>
+            </div>
+        </div>
+        <header>
+            <img src="assets/note.png" height="50px" alt="PostDay">
+            <h2 class="header-title">PostDay</h2>
+        </header>
+            <div id="form-container">
+                <form id="form" autocomplete="off">
+                    <input id="note-title" placeholder="Titulo" type="text">
+                    <input id="note-text" placeholder="Adicione uma nota..." type="text">
+                    <div id="form-buttons">
+                        <button type="submit" id="submit-button">Adicionar</button> 
+                        <button type="button" id="form-close-button">Fechar</button> 
+                     </div>
+                </form>
+            </div>
+            <div id="notes"></div>
+            <div id="placeholder">  
+              <svg id="placeholder-logo" xmlns="http://www.w3.org/2000/sv" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+              </svg>
+              <p id="placeholder-text">Suas notas aparecem aqui</p>
+            </div>
+            <h1 >
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
