@@ -2,7 +2,7 @@
 
 Este é o projeto dois da disciplina de banco de dados II no qual foi desenvolvido uma aplicação WEB, que manipulasse dados (CRUD) usando o mongodb. 
 
-Foi desenvolvido uma pequena aplicação chamada "PostDay", nessa aplicação o usuário poderá adcionar notas (post-it) com informações que desejar. O usuário irá conseguir adcionar, editar, excluir e ver listado todas as suas notas na sua tela.
+Foi desenvolvido uma pequena aplicação chamada "PostDay", nessa aplicação o usuário poderá adicionar notas (post-it) com informações que desejar. O usuário irá conseguir adicionar, editar, excluir e ver listado todas as suas notas na sua tela.
 
 /home/fabioladiniz/Imagens/Capturas de tela/postday.png![image](https://user-images.githubusercontent.com/20650067/183726546-a8d66ddc-fb34-449a-982c-a29d1217c9f0.png)
 
